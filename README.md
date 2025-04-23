@@ -6,7 +6,9 @@ This project is a compilation of all the phases and mini-projects I've worked on
 
 ### Technologies & Tools I’m Using:
 - **React** – The core library for building user interfaces.
+- **TypeScript** – A superset of JavaScript that adds static typing, providing better tooling and more robust code.
 - **Next.js** – For building server-rendered and static web applications with React.
+- **Typescri.js** – For building server-rendered and static web applications with React.
 - **Tailwind CSS** – Utility-first CSS framework for fast UI development.
 - **shadcn** – A UI component library built with Radix UI, designed for a great developer experience.
 - **MySQL** – Relational database management system to store and manage data.
