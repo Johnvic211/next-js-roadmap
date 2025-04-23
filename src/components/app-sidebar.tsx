@@ -40,11 +40,11 @@ const data = {
       items: [
         {
           title: "Todo",
-          url: "/phase-1/todo",
+          url: "/next-js-roadmap/phase-1/todo",
         },
         {
           title: "Weather",
-          url: "/phase-1/weather",
+          url: "/next-js-roadmap/phase-1/weather",
         },
       ],
     },

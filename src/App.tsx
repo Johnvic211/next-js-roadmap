@@ -15,10 +15,10 @@ import {
   Routes, 
   Route,
   Navigate
-} from "react-router-dom";
+} from "react-router-dom"
 
-import ToDo from "./app/phase_1/todo/ToDo";
-import Weather from "./app/phase_1/weather/Weather";
+import ToDo from "./app/phase_1/todo/ToDo"
+import Weather from "./app/phase_1/weather/Weather"
 
 export default function App() {
   return (
@@ -42,9 +42,9 @@ export default function App() {
         </header>
         <div className="flex flex-1 flex-col gap-4 p-4 pt-0 bg-muted/50">
           <Routes>
-            <Route path="" element={<Navigate to="/phase-1/todo" replace />} />
-            <Route path="/phase-1/todo" element={<ToDo />} />
-            <Route path="/phase-1/weather" element={<Weather />} />
+            <Route path="" element={<Navigate to="/next-js-roadmap/phase-1/todo" replace />} />
+            <Route path="/next-js-roadmap/phase-1/todo" element={<ToDo />} />
+            <Route path="/next-js-roadmap/phase-1/weather" element={<Weather />} />
           </Routes>
         </div>
       </SidebarInset>
