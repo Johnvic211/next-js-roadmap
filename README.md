@@ -1,9 +1,19 @@
 # Next.js Full Learning Checklist
 
-Welcome to my Next.js Full Learning Journey! 🚀
+Welcome to my **Next.js Full Learning Journey!** 🚀
 
-This project is a compilation of all the phases and mini-projects I've worked on while learning React and Next.js. It follows a structured roadmap from basic concepts to deploying a full-stack app. Below is the full checklist that I follow to ensure I’m progressing with strong foundational knowledge and hands-on practice.
+This project is a compilation of all the phases and mini-projects I've worked on while learning **React** and **Next.js**. It follows a structured roadmap from basic concepts to deploying a full-stack app. Below is the full checklist that I follow to ensure I’m progressing with strong foundational knowledge and hands-on practice.
 
+### Technologies & Tools I’m Using:
+- **React** – The core library for building user interfaces.
+- **Next.js** – For building server-rendered and static web applications with React.
+- **Tailwind CSS** – Utility-first CSS framework for fast UI development.
+- **shadcn** – A UI component library built with Radix UI, designed for a great developer experience.
+- **MySQL** – Relational database management system to store and manage data.
+- **Prisma** – ORM for easy interaction with databases in Node.js and TypeScript.
+- **Vercel** – Deployment platform for Next.js apps.
+- **JWT (JSON Web Tokens)** – For user authentication and session management.
+- **next-auth** – Authentication library for Next.js to simplify handling user sign-in and session.
 ---
 
 ## Phase 1: Foundation (React Basics)
