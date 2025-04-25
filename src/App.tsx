@@ -19,6 +19,7 @@ import {
 
 import ToDo from "./app/phase_1/todo/ToDo"
 import Weather from "./app/phase_1/weather/Weather"
+import TicTacToe from "./app/phase_1/tictactoe/TicTacToe"
 
 export default function App() {
   return (
@@ -45,6 +46,7 @@ export default function App() {
             <Route path="" element={<Navigate to="/next-js-roadmap/phase-1/todo" replace />} />
             <Route path="/next-js-roadmap/phase-1/todo" element={<ToDo />} />
             <Route path="/next-js-roadmap/phase-1/weather" element={<Weather />} />
+            <Route path="/next-js-roadmap/phase-1/tictactoe" element={<TicTacToe />} />
           </Routes>
         </div>
       </SidebarInset>

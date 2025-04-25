@@ -22,15 +22,9 @@ const data = {
   user: {
     name: "Johnvic Dela Cruz",
     email: "delacruzjohnvic21@gmail.com",
-    avatar: "/avatars/shadcn.jpg",
+    avatar: ''
   },
-  teams: [
-    {
-      name: "Acme Inc",
-      logo: GalleryVerticalEnd,
-      plan: "Enterprise",
-    },
-  ],
+
   navMain: [
     {
       title: "Phase 1 Applications",
@@ -45,6 +39,10 @@ const data = {
         {
           title: "Weather",
           url: "/next-js-roadmap/phase-1/weather",
+        },
+        {
+          title: "Tic Tac Toe",
+          url: "/next-js-roadmap/phase-1/tictactoe",
         },
       ],
     },
