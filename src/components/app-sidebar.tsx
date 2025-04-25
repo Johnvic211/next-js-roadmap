@@ -1,11 +1,13 @@
 import * as React from "react"
 import {
+  Frame,
   GalleryVerticalEnd,
   SquareTerminal,
 } from "lucide-react"
 
 import { NavMain } from "@/components/nav-main"
 import { NavUser } from "@/components/nav-user"
+import { NavItem} from "@/components/nav-item"
 import {
   Sidebar,
   SidebarContent,
@@ -24,7 +26,13 @@ const data = {
     email: "delacruzjohnvic21@gmail.com",
     avatar: ''
   },
-
+  item: [
+    {
+      name: "Dashboard",
+      url: "/next-js-roadmap/dashboard",
+      icon: Frame,
+    },
+  ],
   navMain: [
     {
       title: "Phase 1 Applications",
@@ -70,6 +78,7 @@ export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
         </SidebarMenu>
       </SidebarHeader>
       <SidebarContent>
+        <NavItem items={data.item} />
         <NavMain items={data.navMain} />
       </SidebarContent>
       <SidebarFooter>
